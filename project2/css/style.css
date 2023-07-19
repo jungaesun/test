@@ -1,0 +1,51 @@
+/* 공통적으로 들어갈것 */
+*{padding: 0; margin: 0;}
+li{list-style: none;}
+.inner{width: 1400px; margin: 0 auto;}
+.clear{clear: both;}
+
+/* 헤더부분 */
+.header{width: 100%; height: 90px; border-bottom: 1px solid gray; line-height: 90px;}
+.logo{width: 180px; height: 30px; float: left; }
+.top_banner{float: right;}
+.header>.inner{position: relative; width: 1400px; height: 90px;}
+.menu{position: absolute; width: 600px; left: 0; right: 0; margin: 0 auto;} 
+.menu>li{width: 100px; float: left; }
+.one{width: 50px; height: 50px; background-color: #78c0eb; display: inline-block; border-radius: 50%; line-height: 60px; text-align: center;    position: absolute;
+    top: 23%;
+    margin-left: 5px;}
+
+
+/* 메인이미지 부분 */
+.mainimg{width: 100%; height: 825px; position: relative;}
+.main_bg{width: 100%; height: 450px; background-color: #78c0eb; position: absolute; top: 150px;}
+.main_img{width: 100%; height: 760px; background-image: url(../images/main_4.png); position: absolute; left: 0; right: 0; margin: 0 auto;}
+.phon{width: 495px;
+    height: 649px; background-image: url(../images/phon_4.png); position: absolute; left: 140px; right: 0px; margin: 0 auto; background-size: 100%; top: 20%;}
+
+/* 콘텐츠 부분 */
+.box1{width: 100%; height: 675px; padding-top: 150px;}
+.list{width: 25%; float: left;}
+.list>h2{padding-bottom: 20px;}
+.list>p{padding-bottom: 40px;}
+.color{width: 326px; height: 160px; background-color: #78c0eb; text-align: center; padding-top: 100px; border: 1px solid gray;}
+.line{width: 326px; height: 160px; border: 1px solid gray; text-align: center; padding-top: 100px;}
+.box1>.inner>.list>p{font-size: 15px; color: gray;}
+
+
+.box2{width: 100%; height: 240px; border-top: 1px solid gray; border-bottom: 1px solid gray;}
+.box_text{float: left; padding-top: 100px;}
+.box_img{float: right; padding-top: 25px;}
+.go_color{color: #fff;}
+.center{width: 124px; height: 40px; background-color: #78c0eb; text-align: center; line-height: 40px; color: white;}
+.box2>.inner>.box_text{color: gray; font-weight: bold;}
+
+
+/* footer */
+.footer{width: 100%; height: 100px;}
+.footer_info{float: left; font-size: 11px; color: black; padding-top: 30px;}
+.footer_info>span{font-size: 13px; font-weight: bold; color: black;}
+.footer_btn{float: right; padding-top: 30px;}
+.footer_btn>li{float: left; width: 80px; right: 30px; border: 1px solid blue; text-align: center; line-height: 30px; margin-left: 7px;}
+.border_none{border: none !important;}
+.border_none>select{width: 80px; height: 30px; border: 1px solid gray;}
